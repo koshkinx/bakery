@@ -169,6 +169,8 @@ html {
       margin-right: 5em;
       text-align: center;
       &_icon {
+        width: 100%;
+        padding: 4.5em 0 5.2em;
       }
       &_line {
         background-color: #767676;
@@ -446,7 +448,7 @@ span {
   }
 }
 
-@media (max-width: 830px) {
+@media (min-width: 541px) and (max-width: 830px) {
   .main_cake_nav_right_menu_li {
     font-size: 1em;
   }
@@ -550,26 +552,42 @@ span {
     width: 85%;
   }
 }
-@media (max-width: 540px) {
-  .footer_wrapper .tel_foo {
+@media (min-width: 200px) and (max-width: 540px) {
+  .about_main_text {
+    margin-left: 0;
+  }
+  .footer_wrapper {
+    flex-wrap: wrap;
+  }
+
+  .logo_foo {
+    width: 33%;
+  }
+  .phone_foo {
+    width: 97%;
+    text-align: center;
+  }
+  .tel_foo {
     font-size: 12px;
     line-height: 16px;
   }
-  .footer_wrapper .text_foo {
+  .text_foo {
+    width: 47%;
     font-size: 10px;
     line-height: 15px;
   }
   span {
-    font-size: 15px;
+    font-size: 10px;
   }
   .main_block_many {
     display: flex;
     flex-direction: column;
-    width: 83%;
+    width: 100%;
+    align-items: center;
   }
   .main_block_text {
-    font-size: 45px;
-    line-height: 50px;
+    font-size: 34px;
+    line-height: 42px;
   }
   .about_main {
     width: 100%;
@@ -603,7 +621,7 @@ span {
   }
   .main_product_menu_li {
     font-size: 8px;
-    padding: 5px 9px;
+    padding: 2px 4px;
   }
   .main_product_catalog {
     font-size: 28px;
@@ -618,9 +636,11 @@ span {
     font-size: 1.8em;
     line-height: 0;
   }
-
+  .main_why {
+    width: 100%;
+  }
   .main_cake {
-    height: 33vh;
+    height: 51vh;
   }
   .main_cake_word_link_button {
     padding: 10px;
@@ -664,6 +684,12 @@ span {
     opacity: 1;
     display: block;
     transition: 0.4s;
+  }
+  .wrapper {
+    background-position: center;
+  }
+  .about_main_text {
+    margin-left: 0;
   }
 }
 @media (max-width: 768px) {
