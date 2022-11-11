@@ -553,13 +553,21 @@ span {
   }
 }
 @media (min-width: 200px) and (max-width: 540px) {
+  .main_cake_nav_right_menu_li {
+    font-size: 1em;
+  }
+  .main_logo {
+    height: 46px;
+  }
   .about_main_text {
     margin-left: 0;
   }
   .footer_wrapper {
     flex-wrap: wrap;
   }
-
+  .footer_img {
+    width: 138px;
+  }
   .logo_foo {
     width: 33%;
   }
@@ -607,7 +615,7 @@ span {
     margin-bottom: 20px;
   }
   .main_product_bred_1_1 {
-    font-size: 1.4em;
+    font-size: 1.8em;
   }
   .main_product_bred {
     display: flex;
@@ -624,7 +632,7 @@ span {
     padding: 2px 4px;
   }
   .main_product_catalog {
-    font-size: 28px;
+    font-size: 20px;
   }
   .main_why_rules {
     flex-direction: column;
@@ -640,10 +648,12 @@ span {
     width: 100%;
   }
   .main_cake {
-    height: 51vh;
+    height: 63vh;
   }
   .main_cake_word_link_button {
-    padding: 10px;
+    margin-top: 38px;
+    margin-left: 15px;
+    padding: 2px;
     font-size: 1em;
   }
   .main_cake_word_litlle {
@@ -656,6 +666,10 @@ span {
     line-height: 20px;
   }
   .citrus {
+    padding: 8px;
+
+    height: 36px;
+    width: 35px;
     display: flex;
   }
   .dropdown {
