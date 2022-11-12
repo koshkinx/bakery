@@ -44,7 +44,7 @@ html {
   text-decoration: none;
   font-weight: 400;
   font-size: 1.5em;
-  line-height: 1.8em;
+  line-height: 18px;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -457,6 +457,32 @@ span {
   }
 }
 @media (min-width: 541px) and (max-width: 830px) {
+  .main_block_text {
+    margin-bottom: 22px;
+  }
+
+  .main_block {
+    padding: 70px 5%;
+  }
+
+  .green_img {
+    width: 100%;
+    margin: 0 0;
+    border: 1px solid green;
+  }
+
+  .green {
+    border: 0;
+  }
+
+  .main_block_many {
+    width: 100%;
+  }
+
+  .main_product_bred_1_1 {
+    font-size: 1.4em;
+  }
+
   .main_cake_nav_right_menu_li {
     font-size: 1em;
   }
@@ -638,16 +664,13 @@ span {
   }
 
   .about_main {
+    padding: 34px 5% 78px 5%;
     width: 100%;
   }
 
   .about_main_our {
     font-size: 3em;
     line-height: 36px;
-  }
-
-  .bred_first {
-    padding: 0 10px;
   }
 
   .main_product_bred_1 {
@@ -700,6 +723,7 @@ span {
   }
 
   .main_cake {
+    padding: 5%;
     height: 63vh;
   }
 
